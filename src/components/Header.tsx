@@ -20,10 +20,10 @@ export const Header = ({ title }: HeaderProps) => {
     };
 
     return (
-        <header className="w-full h-18 border-0 border-b-[1px] shadow-xm border-b-[#ECEEEB] bg-white flex items-center justify-between p-5">
+        <header className="w-full h-18 border-0 border-b-[1px] shadow-xm border-b-[#ECEEEB] bg-white flex items-center justify-between p-5 max-[570px]:flex-col max-[570px]:p-0 max-[570px]:h-20 max-[570px]:justify-center">
             <div className="flex items-center gap-10">
                 <LogoIza />
-                <span className="text-[20px] font-semibold text-slateDark">
+                <span className="text-[20px] font-semibold text-slateDark max-[570px]:text-[18px]">
                     {title}
                 </span>
             </div>
