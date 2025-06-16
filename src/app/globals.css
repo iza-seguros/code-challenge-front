@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --slateDark: #30374f;
+  --vividRed: #ff4d4d;
+}
+
+@theme inline {
+  --color-slateDark: var(--slateDark);
+  --color-vividRed: var(--vividRed);
+  --font-inter: var(--font-Inter);
+}
+
+body{
+    font-family: var(--font-Inter), sans-serif;
+}
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px white inset !important;
+    -webkit-text-fill-color: black !important;
+}
